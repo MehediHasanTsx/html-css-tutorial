@@ -1,100 +1,111 @@
-body{
-    background: #27c05a58;
-text-align: center;
-padding: 10px;
- display: grid;
- place-items: center;
- margin: 2px;
- /* width: 500px; */
+body {
+   background: #27c05a58;
+   text-align: center;
+   padding: 10px;
+   display: grid;
+   place-items: center;
+   margin: 2px;
+   /* width: 500px; */
 
 }
-a
-{
-    color: #07070736;
-    font-size: 15px;
-    text-emphasis: none;
-}
- 
-table{
 
-    font-family: 'Courier New', Courier, monospace;
-    border-collapse: #28647836;
+a {
+   color: #07070736;
+   font-size: 15px;
+   text-emphasis: none;
 }
 
+table {
 
-td,th{
-
-    border:10px solid #cc278f36;
+   font-family: 'Courier New', Courier, monospace;
+   border-collapse: #28647836;
 }
 
-ul{
-    /* list-style-type: square; */
-    list-style-type: disc;
+
+td,
+th {
+
+   border: 10px solid #cc278f36;
 }
- h1,
- p,
- spam,
- strong{
-    border: 1px solid rgb(239, 6, 6);
- }*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- }
-body{
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     font-size:  15px;
-     line-height: 1.5sem;
+
+ul {
+   /* list-style-type: square; */
+   list-style-type: disc;
 }
- img{
-    max-width: 100%;
- }
- header{
-    background: rgb(100, 99, 99);
-    padding: 20px;
- }
- header img{
-    width: 3oopx;
-    margin: 0 auto;
-    display: block;
- }
 
- #main-menu{
-    text-align: center;
-    list-style: none;
-    text-align: center;
+h1,
+p,
+spam,
+strong {
+   border: 1px solid rgb(239, 6, 6);
+}
 
- }
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
 
- #main-menu li{
-    display: inline-block;
-    margin: o 10px;
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 15px;
+   line-height: 1.5sem;
+}
 
- }
+img {
+   max-width: 100%;
+}
 
- #main-menu a{
-    background: goldenrod;
-    color: aqua;
- }
+header {
+   background: rgb(100, 99, 99);
+   padding: 20px;
+}
 
- section{
-    background: wheat;
-    display: flex;
- }
- div{
-    padding: 20px;
-    width: 60%;
- }
- aside{
-    padding: 20px;
-    width: 40%;
- }
- aside ul{
-    margin-left: 20px;
-    margin-top: 10px;
-    font-size: small;
- }
- footer{
-    background: rgb(116, 152, 158);
- }
- 
+header img {
+   width: 3oopx;
+   margin: 0 auto;
+   display: block;
+}
+
+#main-menu {
+   text-align: center;
+   list-style: none;
+   text-align: center;
+
+}
+
+#main-menu li {
+   display: inline-block;
+   margin: o 10px;
+
+}
+
+#main-menu a {
+   background: goldenrod;
+   color: aqua;
+}
+
+section {
+   background: wheat;
+   display: flex;
+}
+
+div {
+   padding: 20px;
+   width: 60%;
+}
+
+aside {
+   padding: 20px;
+   width: 40%;
+}
+
+aside ul {
+   margin-left: 20px;
+   margin-top: 10px;
+   font-size: small;
+}
+
+footer {
+   background: rgb(116, 152, 158);
+}
